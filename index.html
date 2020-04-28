@@ -11,7 +11,7 @@
 <body>
     <header>
         <div class="container">
-            <input type="text" name="user_search" id="search" placeholder="Search(16pt)">
+            <input type="text" name="user_search" id="search" onkeyup="myFunction()" placeholder="Search(16pt)">
         </div>
     </header>
 
@@ -20,7 +20,7 @@
             <div class="container">
               <div class="items">
                 <a href="photos/01.jpg" data-lightbox="images" data-title="I love hay bales. Took this snap on a drive through the countryside past some straw fields.">
-                    <img src="photos/01.jpg" alt="Hay Bales">
+                    <img src="photos/01.jpg" alt="Hay Bales" >
                 </a>
             </div>
               
@@ -91,8 +91,9 @@
             </div>
           </div>
     </main>
-    <script src="js/jquery-3.5.0.min.map"></script>
+    
     <script src="js/lightbox/lightbox2-dev/src/js/lightbox-plus-jquery.min.js"></script>
     <script src="js/lightbox/lightbox2-dev/src/js/lightbox.min.js"></script>
+    <script src="js/main.js"></script>
 </body>
 </html>
