@@ -4,7 +4,7 @@
     height: 25px;
     padding: 10px;
     border-radius: 10px;
-    border-color: blak;
+    border-color: black;
 }
 
 img{ 
@@ -41,3 +41,12 @@ img{
     
 }
 
+/* media quesries */
+
+@media(max-width:768px){
+  img{ 
+    width: 350px;
+    height: 350px;
+}
+
+}
